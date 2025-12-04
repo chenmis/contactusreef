@@ -541,7 +541,6 @@
                     <span class="char-counter">
                         <span id="charCount">0</span> / 1000 תווים
                     </span>
-                    <span class="form-error">אנא הזן הודעה (לפחות 10 תווים)</span>
                 </div>
 
                 <button type="submit" class="submit-btn" id="submitBtn">
@@ -630,8 +629,6 @@
                     isValid = false;
                 }
             } else if (field.id === 'name' && field.value.length < 2) {
-                isValid = false;
-            } else if (field.id === 'message' && field.value.length < 10) {
                 isValid = false;
             }
 
